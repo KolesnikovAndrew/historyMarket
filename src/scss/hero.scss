@@ -1,0 +1,29 @@
+.hero {
+  height: 800px;
+  width: 100vw;
+  background-color: rgb(197, 192, 192);
+  text-align: center;
+  font-weight: bold;
+}
+
+.hero-img {
+  filter: blur(2px);
+}
+
+.hero-content {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 999;
+  color: rgb(5, 5, 5);
+  text-shadow: 2px 2px 3px black;
+  font-weight: bold;
+  text-align: left;
+  font-size: 50px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}

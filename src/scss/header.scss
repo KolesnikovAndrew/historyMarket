@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 180px;
+  margin-right: 180px;
+  padding: 10px;
+}
+
+.logo {
+  text-transform: lowercase;
+  font-size: 32px;
+  text-shadow: 2px 2px 3px black;
+}
+.header-ul {
+  color: #565656;
+  font-size: 14px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+.header-li {
+  cursor: pointer;
+}
+
+.select-faq {
+  background-color: black;
+  border-radius: 0;
+  color: white;
+  border: none;
+}
+.select-faq-option {
+  border-radius: 0;
+}
